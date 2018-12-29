@@ -22,8 +22,8 @@ describe('app.js test file testing grouped', () => {
 
     return executeDialogTest([
         new SendMessageToBotDialogStep('Hola!', 'Hi there! Tell me something you like'),
-        new SendMessageToBotDialogStep('The sky', ['The sky is pretty cool.', 'Why do you like it?']),
-        new SendMessageToBotDialogStep('It\'s blue', 'Interesting. Well, that\'s all I have for now')
+        new SendMessageToBotDialogStep('Burger', ['The burger is pretty cool.', 'Why do you like it?']),
+        new SendMessageToBotDialogStep('It\'s pizza', 'Interesting. Well, that\'s all I have for now')
     ])
 })
 });
